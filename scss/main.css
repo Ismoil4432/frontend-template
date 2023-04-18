@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+  border: red solid 2px;
+  max-width: 1916px;
+  margin: 0 auto;
+}
+
+header .container {
+  padding: 25px 150px;
+}
+
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav-logo {
+  font-size: 32px;
+  font-family: "Lora", serif;
+  font-style: normal;
+  line-height: 41px;
+  color: #a55c30;
+  text-decoration: none;
+}
+
+header .nav__list {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .nav__list--item {
+  list-style: none;
+}
+
+header .nav__list--item .active {
+  color: #a55c30;
+}
+
+header .nav__list--item-link {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #232730;
+  text-decoration: none;
+}
+
+.intro .container {
+  min-height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro__text {
+  position: relative;
+  width: 45%;
+}
+
+.intro__text p {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 70%;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  color: #232730;
+}
+
+.intro__text-stick {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 10px;
+  height: 250px;
+  background-color: #f8d7a4;
+}
+
+.intro__image {
+  position: relative;
+  width: 55%;
+}
+
+.intro__image-car {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 100%;
+}
+
+.intro__image-vector {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.about .container {
+  padding: 120px;
+}
+
+.about .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__image {
+  width: 45%;
+}
+
+.about__image img {
+  width: 100%;
+}
+
+.about__text {
+  width: 35%;
+}
+
+.about__text h1 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #a55c30;
+}
+
+.about__text p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 145%;
+  color: #232730;
+}
+
+.services .container {
+  padding: 100px 150px;
+  background-image: url("../images/image_3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services h1 {
+  text-align: center;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 61px;
+  color: #a55c30;
+  margin-bottom: 80px;
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services__list--item {
+  width: 320px;
+  height: 400px;
+}
+
+.services__list--item-icon {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.services__list--item-icon img {
+  height: 100%;
+}
+
+.services__list--item-text h2 {
+  margin-bottom: 20px;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  color: white;
+}
+
+.services__list--item-text p {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

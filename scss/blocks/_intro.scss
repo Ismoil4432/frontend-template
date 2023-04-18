@@ -1,0 +1,58 @@
+.intro {
+  // border: red solid 2px;
+  .container {
+    min-height: 800px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    // border: red solid 2px;
+    position: relative;
+    width: 45%;
+    p {
+      // border: red solid 2px;
+      position: absolute;
+      top: 20%;
+      right: 0;
+      width: 70%;
+      font-family: "Lora";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 82px;
+      color: $black;
+    }
+    &-stick {
+      position: absolute;
+      top: 20%;
+      left: 25%;
+      width: 10px;
+      height: 250px;
+      background-color: $light-brown;
+    }
+  }
+
+  &__image {
+    // border: red solid 2px;
+    position: relative;
+    width: 55%;
+
+    &-car {
+      // border: red solid 2px;
+      position: absolute;
+      top: 20%;
+      right: 0;
+      width: 100%;
+    }
+
+    &-vector {
+      // border: red solid 2px;
+      position: absolute;
+      top: 10%;
+      right: 0;
+      z-index: -1;
+      width: 100%;
+    }
+  }
+}

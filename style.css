@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border: black solid 2px;
+}
+
+.nav {
+  border: red solid 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  border: green solid 2px;
+  font-size: 32px;
+}
+
+.nav-items {
+  border: green solid 2px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items li a {
+  font-size: 18px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.intro {
+  border: black solid 2px;
+}
+
+.container {
+  /* background-color: wheat; */
+  border: red solid 2px;
+  max-width: 1916px;
+  margin: 0 auto;
+}
+
+header .container {
+  padding: 25px 150px;
+}
+
+.intro .container {
+  min-height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro .container .intro-text {
+  border: red solid 2px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.intro p {
+  border: red solid 2px;
+  font-size: 64px;
+  position: absolute;
+  left: 180px;
+}
+
+.intro .stick {
+  border: red solid 2px;
+  width: 10px;
+  height: 250px;
+  position: absolute;
+  left: 150px;
+}
+
+.intro .container .intro-image {
+  border: red solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+}
+
+.intro .container .intro-image .car {
+  /* position: absolute; */
+}
+
+.intro .container .intro-image .vector {
+  position: absolute;
+  z-index: -1;
+}
